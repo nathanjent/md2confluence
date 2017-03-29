@@ -1,0 +1,7 @@
+[package]
+name = "md2jira"
+version = "0.1.0"
+authors = ["Nathan Jent <nathanjent@gmail.com>"]
+
+[dependencies]
+markdown = "0.2.0"
