@@ -1,3 +1,6 @@
+[Rules from Github flavored Markdown
+Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 # header 1
 ## header 2
 ### header 3
