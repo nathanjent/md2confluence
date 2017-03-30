@@ -9,6 +9,10 @@ mod confluence;
 fn main() {
     let mut input_file = "";
     let mut args = env::args();
+
+    // Consume the first arg. It contains the call.
+    args.next();
+
     loop {
         if let Some(arg) = args.next() {
             match &*arg {
@@ -34,7 +38,11 @@ fn main() {
                         print!("{}", out);
                     }
                 }
-                _ => {}
+                _ => {
+                    println!("Use -c <file> to convert confluence to markdown.");
+                    println!("Use -m <file> to convert markdown to confluence.");
+                    ::std::process::exit(0);
+                }
             }
         } else {
             break;
