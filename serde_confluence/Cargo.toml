@@ -1,0 +1,6 @@
+[package]
+name = "serde_confluence"
+version = "0.1.0"
+authors = ["Nathan Jent <n.jent@edaptive.com>"]
+
+[dependencies]

@@ -1,0 +1,9 @@
+[package]
+authors = ["Nathan Jent <nathanjent@gmail.com>"]
+name = "serde_commonmark"
+version = "0.1.0"
+
+[dependencies]
+pulldown-cmark = { git = "https://github.com/nathanjent/pulldown-cmark", default-features = false }
+serde = "1.0"
+serde_derive = "1.0"

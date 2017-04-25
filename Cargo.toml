@@ -1,8 +1,5 @@
-[package]
-authors = ["Nathan Jent <nathanjent@gmail.com>"]
-name = "md2jira"
-version = "0.1.0"
-
-[dependencies]
-markdown = "0.2.0"
-nom = "2.2.0"
+[workspace]
+members = [
+    "serde_cmark",
+    "serde_confluence",
+]
